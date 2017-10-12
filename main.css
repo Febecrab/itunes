@@ -1,5 +1,6 @@
-h1{
-   
+
+h1 {
+    margin-bottom: 50px;
 }
 .display-1{
     color:purple;
@@ -7,22 +8,30 @@ h1{
 }
 
 h4 {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h5 {
+    margin-bottom: 40px;
+}
+
+h6 {
+    margin-top: 70px;
+    font-family: 'Poiret One', cursive;
     
 }
 
-
-
-
+ul {
+    list-style-image: url('');
+}
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
-
-
-}
+@media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
@@ -31,4 +40,4 @@ h4 {
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {  }
