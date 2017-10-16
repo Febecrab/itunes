@@ -18,14 +18,19 @@ h5 {
     margin-bottom: 40px;
 }
 
-h6 {
+h6, button {
     margin-top: 70px;
-    font-family: 'Poiret One', cursive;
     
 }
 
+h6, p {
+
+    font-family: 'Poiret One', cursive;
+}
+
 ul {
-    list-style-image: url('');
+    list-style-image: url('img/plug.png');
+    
 }
 
 p {
@@ -33,7 +38,7 @@ p {
 }
 
 body {
-    background: linear-gradient(whitesmoke,rgb(234,220,249))
+    background: linear-gradient(whitesmoke,rgb(245, 237, 255)  , rgb(241, 228, 255))
 }
 
 /* MEDIA QUERIES
