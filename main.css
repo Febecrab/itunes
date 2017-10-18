@@ -1,10 +1,10 @@
 
 
 h1 {
-    margin-bottom: 90px;
+   
     background-color: black;
     color: whitesmoke;
-    padding: 4px;
+    padding: 9px;
 }
 .display-1{
     
@@ -44,7 +44,7 @@ button {
     background-color: rgb(71, 34, 49);
 }
 
-h6, p, h5 {
+h6, p, h5, #myBtn,button {
 
     font-family: 'Poiret One', cursive;
 }
@@ -79,19 +79,21 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 3px;
     z-index: 99;
     border: none;
     outline: none;
     background-color: transparent;
-    color: white;
+    color: grey;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
+
   }
   
   #myBtn:hover {
     background-color: #555;
+    color:white;
   }
 
 
@@ -118,7 +120,7 @@ body {
         font-size: 2em;
     }
 
-
+   
     
   
 }
@@ -145,6 +147,12 @@ body {
     .display-1 {
         font-size: 3em;
     }
+
+    #header {
+        height:200px;
+        width: 300px;
+    }
+
 
 
 }
