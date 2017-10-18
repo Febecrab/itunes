@@ -20,14 +20,8 @@ h4 {
     font-size: 2em; 
 }
 
-h5 {
-    margin-bottom: 40px;
-}
 
-h6 {
-    margin-top: 70px;
-    
-}
+
 
 button {
 
@@ -44,7 +38,7 @@ button {
     background-color: rgb(71, 34, 49);
 }
 
-h6, p, h5, #myBtn,button {
+p, h5, #myBtn,button {
 
     font-family: 'Poiret One', cursive;
 }
